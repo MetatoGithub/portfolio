@@ -1,0 +1,215 @@
+:root {
+    --bg: #0a0a12;
+    --text: #ececf7;
+    --text-soft: #b5b6c8;
+    --accent: #a855f7;
+    --accent-soft: rgba(168, 85, 247, 0.22);
+    --border: #2c2c4f;
+    --radius: 14px;
+    --shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "JetBrains Mono", "Fira Code", "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    color: var(--text);
+    background:
+        radial-gradient(circle at 15% 10%, rgba(168, 85, 247, 0.17), transparent 38%),
+        radial-gradient(circle at 85% 85%, rgba(168, 85, 247, 0.12), transparent 30%),
+        linear-gradient(165deg, var(--bg), #06060d 60%, #06060d);
+    line-height: 1.6;
+}
+
+
+.site-header {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 1.3rem 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.brand {
+    color: var(--accent);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+}
+
+.site-nav {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: var(--text-soft);
+    border: 1px solid var(--border);
+    background: rgba(20, 20, 39, 0.75);
+    border-radius: 999px;
+    padding: 0.4rem 0.9rem;
+    font-size: 0.9rem;
+    transition: transform 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.site-nav a:hover,
+.site-nav a.active {
+    color: var(--text);
+    border-color: var(--accent);
+    transform: translateY(-1px);
+}
+
+.content-wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 1.2rem 1rem 2rem;
+    display: grid;
+    gap: 1.1rem;
+}
+
+.card {
+    background: linear-gradient(180deg, rgba(26, 26, 50, 0.92), rgba(16, 16, 27, 0.9));
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.2rem;
+    box-shadow: var(--shadow);
+}
+
+.hero {
+    display: grid;
+    gap: 1.2rem;
+    grid-template-columns: 2fr 1fr;
+}
+
+.eyebrow {
+    margin-top: 0;
+    margin-bottom: 0.35rem;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.8rem;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.25;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+    font-size: clamp(1.6rem, 2.5vw, 2.3rem);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.quick-points {
+    margin: 0.8rem 0 0;
+    padding-left: 1.2rem;
+    color: var(--text-soft);
+}
+
+.photo-slot {
+    display: flex;
+    align-items: center;
+}
+
+.photo-box {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 12px;
+    border: 1px dashed var(--accent);
+    background: linear-gradient(145deg, rgba(168, 85, 247, 0.14), rgba(20, 20, 39, 0.6));
+    display: grid;
+    place-content: center;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+}
+
+.photo-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.photo-box p {
+    margin: 0;
+    font-weight: 700;
+}
+
+.photo-box span {
+    color: var(--text-soft);
+    font-size: 0.85rem;
+}
+
+.info-grid,
+.project-grid,
+.template-grid {
+    display: grid;
+    gap: 0.9rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.info-grid article,
+.project-card,
+.template-box {
+    background: rgba(10, 10, 18, 0.72);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.9rem;
+}
+
+.info-grid p,
+.project-card p,
+.template-box p {
+    margin-bottom: 0;
+    color: var(--text-soft);
+}
+
+.chips {
+    margin-top: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+}
+
+.chips span {
+    border: 1px solid var(--accent);
+    background: var(--accent-soft);
+    color: var(--text);
+    border-radius: 999px;
+    padding: 0.2rem 0.55rem;
+    font-size: 0.78rem;
+}
+
+.site-footer {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0.8rem 1rem 1.5rem;
+    color: var(--text-soft);
+    font-size: 0.9rem;
+}
+
+.template-box {
+    min-height: 180px;
+    border-style: dashed;
+}
+
+@media (max-width: 860px) {
+    .hero {
+        grid-template-columns: 1fr;
+    }
+}
