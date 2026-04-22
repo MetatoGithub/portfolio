@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-    $brand = "tim@portfolio:~/template-c$";
+    $brand = "tim@portfolio:~/patrimoine $";
     include __DIR__ . "/navbar.php";
     ?>
 

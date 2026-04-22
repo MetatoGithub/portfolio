@@ -4,7 +4,10 @@
     --text-soft: #b5b6c8;
     --accent: #a855f7;
     --accent-soft: rgba(168, 85, 247, 0.22);
+    --wip: #ff7700;
+    --wip-soft: #ac5000;
     --border: #2c2c4f;
+    --border-wip: #462000;
     --radius: 14px;
     --shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
 }
@@ -165,7 +168,6 @@ h2 {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
-.info-grid article,
 .project-card,
 .template-box {
     background: rgba(13, 10, 18, 0.72);
@@ -231,17 +233,17 @@ project-description {
     letter-spacing: 0.08em;
     font-size: 0.8rem;
 }
-.eyebrow-proj-wip {
+.eyebrow-wip {
     margin-top: 0;
     margin-bottom: 0.35rem;
-    color: #f7a155;
+    color: var(--wip);
     text-transform: uppercase;
     letter-spacing: 0.08em;
     font-size: 0.8rem;
 }
 .chips-wip span {
-    border: 1px solid #ff7700;
-    background: #ac5000;
+    border: 1px solid var(--wip);
+    background: var(--wip-soft);
     color: var(--text);
     border-radius: 999px;
     padding: 0.2rem 0.55rem;
@@ -253,11 +255,25 @@ project-description {
 
 .project-card-wip {
     background: rgba(18, 14, 10, 0.72);
-    border: 1px solid var(--border);
+    border: 1px dashed var(--border-wip);
     border-radius: 10px;
     padding: 0.9rem;
 }
 
 .project-card-wip p {
     margin-bottom: 0;
+}
+
+.stage {
+    background: rgba(13, 10, 18, 0.72);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.9rem;
+}
+
+.stage-wip {
+    background: rgba(18, 14, 10, 0.72);
+    border: 1px dashed var(--border-wip);
+    border-radius: 10px;
+    padding: 0.9rem;
 }

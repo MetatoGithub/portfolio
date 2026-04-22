@@ -8,7 +8,7 @@
 </head>
 <body class="page page-projects">
     <?php
-    $brand = "tim@portfolio:~/projects$";
+    $brand = "tim@portfolio:~/projects $";
     include __DIR__ . "/navbar.php";
     ?>
 
@@ -43,7 +43,7 @@
             </article>
 
             <article class="project-card-wip">
-                <p class="eyebrow-proj-wip">AP 2eme annee</p>
+                <p class="eyebrow-wip">AP 2eme annee</p>
                 <h2>A suivre...</h2>
                 <p class="project-description">Projet de 2eme annee</p>
                 <div class="chips-wip">

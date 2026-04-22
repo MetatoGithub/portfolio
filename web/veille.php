@@ -8,14 +8,14 @@
 </head>
 <body>
     <?php
-    $brand = "tim@portfolio:~/template-a$";
+    $brand = "tim@portfolio:~/veille $";
     include __DIR__ . "/navbar.php";
     ?>
 
     <main class="content-wrap">
         <section class="card">
             <p class="eyebrow">Blank Page</p>
-            <h1>Template A</h1>
+            <h1>Veille informatique</h1>
             <p>This page is intentionally blank so you can build a custom section later.</p>
         </section>
 
