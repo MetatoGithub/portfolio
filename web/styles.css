@@ -168,6 +168,7 @@ h2 {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
+.info-grid article,
 .project-card,
 .template-box {
     background: rgba(13, 10, 18, 0.72);
@@ -182,7 +183,7 @@ h2 {
     margin-bottom: 0;
 }
 
-project-description {
+.project-description {
     margin-bottom: 0.8rem;
     color: var(--text-soft);
 }
@@ -207,11 +208,14 @@ project-description {
 }
 
 .site-footer {
-    max-width: 1080px;
+    justify-content: center;
     margin: 0 auto;
     padding: 0.8rem 1rem 1.5rem;
     color: var(--text-soft);
     font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
 }
 
 .template-box {
@@ -276,4 +280,37 @@ project-description {
     border: 1px dashed var(--border-wip);
     border-radius: 10px;
     padding: 0.9rem;
+}
+
+.spacer {
+    height: 1.2rem;
+    width: 200px;
+}
+
+.social-links {
+    justify-items: right;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    max-width: 250px;
+}
+
+.social-links a {
+    color: var(--text-soft);
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid var(--border);
+    background: rgba(20, 20, 39, 0.75);
+    border-radius: 999px;
+    height: 40px;
+    padding: 0.4rem 0.9rem;
+    font-size: 0.9rem;
+    transition: transform 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.social-links a:hover {
+    color: var(--text);
+    border-color: var(--accent);
+    transform: translateY(-1px);
 }
