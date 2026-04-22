@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tim Burgess-Poggioli | Quick Info</title>
+    <title>Tim Burgess--Poggioli</title>
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body class="page page-home">
@@ -28,34 +28,31 @@
                     <li>Passion pour le logiciel libre et open source</li>
                 </ul>
             </div>
-            <aside class="photo-slot" aria-label="Profile photo placeholder">
+            <aside class="photo-slot" aria-label="Headshot de Tim">
                 <div class="photo-box">
-                    <img src="PLACEHOLDER.jpg" alt="Profile photo">
+                    <img src="PLACEHOLDER.jpg" alt="Headshot de Tim" >
                 </div>
             </aside>
         </section>
 
         <section class="card">
-            <h2>Quick Info</h2>
+            <h2>Infos</h2>
             <div class="info-grid">
                 <article>
-                    <h3>Current Focus</h3>
-                    <p>Routing, switching, Linux server hardening, and self-hosted monitoring.</p>
+                    <h3>Centres d'interet</h3>
+                    <p>Routing, switching, gestion de serveurs Linux, monitoring et automatisation.</p>
                 </article>
                 <article>
-                    <h3>Tools I Use</h3>
-                    <p>Linux, shell scripting, Git, and lightweight web stacks for dashboards.</p>
+                    <h3>Mes outils</h3>
+                    <p>Linux, Proxmox, Nextcloud.</p>
                 </article>
                 <article>
-                    <h3>Next Goals</h3>
-                    <p>Expand project portfolio with practical network labs and automation demos.</p>
+                    <h3>Prochains objectifs</h3>
+                    <p>En apprendre plus sur l'infrastructure reseau et l'administration de systemes.</p>
                 </article>
             </div>
         </section>
     </main>
-
-    <footer class="site-footer">
-        <p>Built for learning, documenting, and sharing technical progress.</p>
-    </footer>
+    <?php include __DIR__ . "/footer.php"; ?>
 </body>
 </html>

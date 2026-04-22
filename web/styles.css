@@ -98,6 +98,8 @@ body {
     font-size: 0.8rem;
 }
 
+
+
 h1,
 h2,
 h3 {
@@ -129,7 +131,7 @@ h2 {
     width: 100%;
     aspect-ratio: 1 / 1;
     border-radius: 12px;
-    border: 1px dashed var(--accent);
+    border: 1px solid var(--accent);
     background: linear-gradient(145deg, rgba(168, 85, 247, 0.14), rgba(20, 20, 39, 0.6));
     display: grid;
     place-content: center;
@@ -166,7 +168,7 @@ h2 {
 .info-grid article,
 .project-card,
 .template-box {
-    background: rgba(10, 10, 18, 0.72);
+    background: rgba(13, 10, 18, 0.72);
     border: 1px solid var(--border);
     border-radius: 10px;
     padding: 0.9rem;
@@ -176,6 +178,10 @@ h2 {
 .project-card p,
 .template-box p {
     margin-bottom: 0;
+}
+
+project-description {
+    margin-bottom: 0.8rem;
     color: var(--text-soft);
 }
 
@@ -193,6 +199,9 @@ h2 {
     border-radius: 999px;
     padding: 0.2rem 0.55rem;
     font-size: 0.78rem;
+    min-width: 50px;
+    text-align: center;
+
 }
 
 .site-footer {
@@ -212,4 +221,43 @@ h2 {
     .hero {
         grid-template-columns: 1fr;
     }
+}
+
+.eyebrow-proj {
+    margin-top: 0;
+    margin-bottom: 0.35rem;
+    color: #a855f7;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.8rem;
+}
+.eyebrow-proj-wip {
+    margin-top: 0;
+    margin-bottom: 0.35rem;
+    color: #f7a155;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.8rem;
+}
+.chips-wip span {
+    border: 1px solid #ff7700;
+    background: #ac5000;
+    color: var(--text);
+    border-radius: 999px;
+    padding: 0.2rem 0.55rem;
+    font-size: 0.78rem;
+    min-width: 50px;
+    text-align: center;
+
+}
+
+.project-card-wip {
+    background: rgba(18, 14, 10, 0.72);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.9rem;
+}
+
+.project-card-wip p {
+    margin-bottom: 0;
 }

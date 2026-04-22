@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tim Burgess-Poggioli | Projects</title>
+    <title>Projets | Tim Burgess--Poggioli</title>
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body class="page page-projects">
@@ -14,43 +14,45 @@
 
     <main class="content-wrap">
         <section class="card">
-            <p class="eyebrow">Projects</p>
-            <h1>Work In Progress</h1>
-            <p>Add your completed and in-progress projects below as your portfolio grows.</p>
+            <p class="eyebrow">Tim Burgess--Poggioli</p>
+            <h1>Projets et AP</h1>
+            <p>Voici une liste de mes projets pratiques en cours, ainsi que des projets personnels.</p>
         </section>
 
         <section class="card project-grid">
             <article class="project-card">
-                <h2>Home Lab Network Map</h2>
-                <p>Document VLANs, addressing, firewall rules, and physical topology.</p>
+                <p class="eyebrow-proj">AP 1ere annee</p>
+                <h2>Mise en place d'un emulateur de reseaux</h2>
+                <p class="project-description">Mise en place d'un serveur GNS3 dans le cadre de l'AP en cours, afin de realiser des simulations de reseaux.</p>
                 <div class="chips">
-                    <span>Networking</span>
-                    <span>Documentation</span>
+                    <span>Termine</span>
+                    <span>Reseau</span>
+                    <span>GNS3</span>
                 </div>
             </article>
 
             <article class="project-card">
-                <h2>Linux Server Build</h2>
-                <p>Hardened self-hosted VM with SSH best practices and monitoring tools.</p>
+                <p class="eyebrow-proj">Projet personnel</p>
+                <h2>Deploiement et maintenance d'une infrastructure reseau</h2>
+                <p class="project-description">Installation de serveurs Proxmox pour de la virtualisation et des services personnels.</p>
                 <div class="chips">
-                    <span>Linux</span>
+                    <span>En cours</span>
+                    <span>Proxmox</span>
                     <span>Self Hosting</span>
                 </div>
             </article>
 
-            <article class="project-card">
-                <h2>Automation Scripts</h2>
-                <p>Shell scripts for backups, updates, and service health checks.</p>
-                <div class="chips">
-                    <span>Coding</span>
-                    <span>Bash</span>
+            <article class="project-card-wip">
+                <p class="eyebrow-proj-wip">AP 2eme annee</p>
+                <h2>A suivre...</h2>
+                <p class="project-description">Projet de 2eme annee</p>
+                <div class="chips-wip">
+                    <span>...</span>
+                    <span>...</span>
                 </div>
             </article>
         </section>
     </main>
-
-    <footer class="site-footer">
-        <p>Tip: replace each card with real project links, screenshots, and outcomes.</p>
-    </footer>
+    <?php include __DIR__ . "/footer.php"; ?>
 </body>
 </html>
