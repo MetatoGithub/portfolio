@@ -1,5 +1,5 @@
 :root {
-    --bg: #0a0a1200;
+    --bg: #0a0a12;
     --text: #ececf7;
     --text-soft: #b5b6c8;
     --accent: #a855f7;
@@ -17,7 +17,6 @@
 * {
     box-sizing: border-box;
     text-decoration: none;
-    background-color: var(--bg);
 }
 
 a:visited, 
