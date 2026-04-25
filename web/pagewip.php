@@ -11,7 +11,7 @@
 </head>
 <body class="page page-home">
     <?php
-    $brand = "tim@portfolio:~/wip $";
+    $brand = "tim@portfolio:~/wips $";
     include __DIR__ . "/navbar.php";
     ?>
 
