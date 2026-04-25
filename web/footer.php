@@ -12,7 +12,7 @@
             <i class="fa fa-linkedin"></i> LinkedIn
         </a>
         <a href="https://discord.com/invite/nZUW9Rgz">
-            <i class="fa-brands fa-discord"></i> Discord
+            <img src="assets/discordlogo.png" alt="Discord logo" style="height: 12px;"> Discord
         </a>
         <a href="mailto:tim.burgess@metatobac.cc">
             <i class="fa fa-envelope"></i> E-mail
