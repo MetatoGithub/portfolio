@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#0a0a12">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>Projets | Tim Burgess--Poggioli</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?newcache01" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="page page-projects">
