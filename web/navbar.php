@@ -20,4 +20,14 @@ $navItems = array(
         }
         ?>
     </nav>
+    <script>
+        const nav = document.querySelector(".site-header");
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 50) {
+                nav.classList.add("scrolled");
+            } else {
+                nav.classList.remove("scrolled");
+            }
+        });
+    </script>
 </header>
