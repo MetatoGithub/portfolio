@@ -1,7 +1,7 @@
 <footer class="site-footer">
     <div class="flavortext">
         <p>Construit avec HTML, CSS et PHP, et un peu d'amour. </p>
-        <p>Copyright &copy; 2026 Tim Burgess--Poggioli. Tous droits reserves.</p>
+        <p>Copyright &copy; 2026 Tim Burgess--Poggioli. Tous droits réservés.</p>
     </div>
     <div class="spacer"></div>
     <div class="social-links">

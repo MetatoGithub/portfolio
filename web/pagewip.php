@@ -18,7 +18,7 @@
     <main class="content-wrap">
         <section class="card-wip">
             <div>
-                <p class="eyebrow-wip">Etudiant en BTS SIO</p>
+                <p class="eyebrow-wip">Étudiant en BTS SIO</p>
                 <h1>Page en cours de construction</h1>
                 <p>
                     Cette page est en cours de construction. Revenez plus tard pour voir le contenu une fois qu'il sera prêt!

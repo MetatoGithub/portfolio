@@ -26,12 +26,12 @@
             <a class="project-link" href="https://cloud.metatobac.cc/index.php/s/a3fTQN4pHSpNgMC/download/GNS3.pdf">
                 <article class="project-card">
                     <img src="assets/gns3logo.png" alt="gns3 logo" class="project-image">
-                    <p class="eyebrow-proj">AP 1ere annee</p>
-                    <h2>Mise en place d'un emulateur de reseaux</h2>
-                    <p class="project-description">Mise en place d'un serveur GNS3 dans le cadre de l'AP en cours, afin de realiser des simulations de reseaux.</p>
+                    <p class="eyebrow-proj">AP 1re année</p>
+                    <h2>Mise en place d'un émulateur de réseaux</h2>
+                    <p class="project-description">Mise en place d'un serveur GNS3 dans le cadre de l'AP en cours, afin de réaliser des simulations de réseaux.</p>
                     <div class="chips">
-                        <span>Termine</span>
-                        <span>Reseau</span>
+                        <span>Terminé</span>
+                        <span>Réseau</span>
                         <span>GNS3</span>
                     </div>
                 </article>
@@ -40,7 +40,7 @@
             <article class="project-card">
                 <img src="assets/proxmoxlogo.png" alt="Proxmox logo" class="project-image">
                 <p class="eyebrow-proj">Projet personnel</p>
-                <h2>Deploiement et maintenance d'une infrastructure reseau</h2>
+                <h2>Déploiement et maintenance d'une infrastructure réseau</h2>
                 <p class="project-description">Installation de serveurs Proxmox pour de la virtualisation et des services personnels.</p>
                 <div class="chips">
                     <span>En cours</span>
@@ -52,7 +52,7 @@
             <a class="project-link" href="https://github.com/MetatoGithub/nolark-burgess">
                 <article class="project-card">
                     <img src="assets/nolarklogo.png" alt="Nolark logo" class="project-image">
-                    <p class="eyebrow">AP 1ere annee</p>
+                    <p class="eyebrow">AP 1re année</p>
                     <h2>Construction d'un site web de vente en ligne</h2>
                     <p class="project-description">Construction du site web Nolark, une boutique en ligne de casques de moto.</p>
                     <div class="chips">
@@ -64,9 +64,9 @@
             </a>
 
             <article class="project-card-wip">
-                <p class="eyebrow-wip">AP 2eme annee</p>
-                <h2>A suivre...</h2>
-                <p class="project-description">Projet de 2eme annee</p>
+                <p class="eyebrow-wip">AP 2e année</p>
+                <h2>À suivre...</h2>
+                <p class="project-description">Projet de 2e année</p>
                 <div class="chips-wip">
                     <span>...</span>
                     <span>...</span>

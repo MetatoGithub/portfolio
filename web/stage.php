@@ -19,20 +19,20 @@
         <section class="card">
             <p class="eyebrow">Tim Burgess--Poggioli</p>
             <h1>Stages</h1>
-            <p>Voici les stages que j'ai effectues et prevus durant ma formation en BTS SIO.</p>
+            <p>Voici les stages que j'ai effectués et prévus durant ma formation en BTS SIO.</p>
         </section>
 
         <section class="card">
             <div class="info-grid">
                 <article class="stage">
-                    <p class="eyebrow">1ere annee</p>
+                    <p class="eyebrow">1re année</p>
                     <h3>Naval Group Ollioules</h3>
-                    <p>Le stage de 1ere annee sera effectue en Mai 2026</p>
+                    <p>Le stage de 1re année sera effectué en mai 2026</p>
                 </article>
                 <article class="stage-wip">
-                    <p class="eyebrow-wip">2eme annee</p>
-                    <h3>A suivre...</h3>
-                    <p>Le stage de 2eme annee sera effectue en Janvier 2027</p>
+                    <p class="eyebrow-wip">2e année</p>
+                    <h3>À suivre...</h3>
+                    <p>Le stage de 2e année sera effectué en janvier 2027</p>
                 </article>
             </div>
         </section>
