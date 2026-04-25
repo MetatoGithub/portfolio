@@ -31,7 +31,7 @@
             </div>
             <aside class="photo-slot" aria-label="Headshot de Tim">
                 <div class="photo-box">
-                    <img src="PLACEHOLDER.jpg" alt="Headshot de Tim" >
+                    <img src="assets/PLACEHOLDER.jpg" alt="Headshot de Tim" >
                 </div>
             </aside>
         </section>
@@ -39,15 +39,15 @@
         <section class="card">
             <h2>Infos</h2>
             <div class="info-grid">
-                <article>
+                <article class="info-cards">
                     <h3>Centres d'interet</h3>
                     <p>Routing, switching, gestion de serveurs Linux, monitoring et automatisation.</p>
                 </article>
-                <article>
+                <article class="info-cards">
                     <h3>Mes outils</h3>
                     <p>Linux, Proxmox, Nextcloud.</p>
                 </article>
-                <article>
+                <article class="info-cards">
                     <h3>Prochains objectifs</h3>
                     <p>En apprendre plus sur l'infrastructure reseau et l'administration de systemes.</p>
                 </article>

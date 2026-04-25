@@ -18,5 +18,4 @@
             <i class="fa fa-envelope"></i> E-mail
         </a>
     </div>
-
 </footer>
