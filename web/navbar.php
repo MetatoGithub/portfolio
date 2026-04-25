@@ -13,6 +13,7 @@ $navItems = array(
 
 <header class="site-header">
     <div class="brand"><?php echo htmlspecialchars($brand, ENT_QUOTES, "UTF-8"); ?></div>
+    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
     <nav class="site-nav" aria-label="Main navigation">
         <?php 
         foreach ($navItems as $pageName => $pageUrl) {
@@ -21,13 +22,24 @@ $navItems = array(
         ?>
     </nav>
     <script>
-        const nav = document.querySelector(".site-header");
+        const header = document.querySelector(".site-header");
+        const toggle = document.querySelector(".menu-toggle");
+        const navMenu = document.querySelector(".site-nav");
+
         window.addEventListener("scroll", () => {
-            if (window.scrollY > 50) {
-                nav.classList.add("scrolled");
-            } else {
-                nav.classList.remove("scrolled");
-            }
+          if (window.scrollY > 50) {
+            header.classList.add("scrolled");
+          } else {
+            header.classList.remove("scrolled");
+          }
         });
-    </script>
+
+        toggle.addEventListener("click", () => {
+          navMenu.classList.toggle("open");
+        
+          if (window.scrollY <= 50) {
+            header.classList.toggle("scrolled");
+          }
+        });
+</script>
 </header>
