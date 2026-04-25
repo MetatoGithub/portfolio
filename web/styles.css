@@ -42,6 +42,17 @@ body {
     line-height: 1.6;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  background-color: #0a0a12; /* or your main dark color */
+}
+
+
 .site-header {
     max-width: 1080px;
     margin: 0 auto;
