@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#0a0a12">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Projets | Tim Burgess--Poggioli</title>
+    <title>Projets - Tim Burgess--Poggioli</title>
+    <link rel="icon" type="assets/favicon.png" href="assets/favicon.png">
     <link rel="stylesheet" href="styles.css?newcache01" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -30,7 +31,7 @@
                     <h2>Mise en place d'un émulateur de réseaux</h2>
                     <p class="project-description">Mise en place d'un serveur GNS3 dans le cadre de l'AP en cours, afin de réaliser des simulations de réseaux.</p>
                     <div class="chips">
-                        <span>Terminé</span>
+                        <span>FOSS</span>
                         <span>Réseau</span>
                         <span>GNS3</span>
                     </div>
@@ -43,7 +44,7 @@
                 <h2>Déploiement et maintenance d'une infrastructure réseau</h2>
                 <p class="project-description">Installation de serveurs Proxmox pour de la virtualisation et des services personnels.</p>
                 <div class="chips">
-                    <span>En cours</span>
+                    <span>Personnel</span>
                     <span>Proxmox</span>
                     <span>Self Hosting</span>
                 </div>
