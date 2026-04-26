@@ -99,7 +99,7 @@ html {
 .site-nav a.active {
     color: var(--text);
     border-color: var(--accent);
-    transform: translateY(-1px);
+    transform: translateY(-5px);
 }
 
 .menu-toggle {
@@ -215,7 +215,6 @@ h2 {
 
 .photo-box {
     width: 100%;
-    aspect-ratio: 1 / 1;
     border-radius: 12px;
     border: 1px solid var(--accent);
     background: linear-gradient(145deg, rgba(168, 85, 247, 0.14), rgba(20, 20, 39, 0.6));
@@ -224,6 +223,14 @@ h2 {
     text-align: center;
     padding: 0;
     overflow: hidden;
+}
+
+.photo-box a {
+    transition: transform 0.2s ease;
+}
+
+.photo-box a:hover {
+    transform: scale(1.1);
 }
 
 .photo-box img {
@@ -249,6 +256,16 @@ h2 {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
+a.info-link > .info-cards {
+    height: 100%;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+a.info-link > .info-cards:hover {
+    border-color: var(--accent);
+    transform: translateY(-5px);
+}
 
 .project-grid,
 .template-grid {
@@ -414,7 +431,7 @@ h2 {
 .social-links a:hover {
     color: var(--text);
     border-color: var(--accent);
-    transform: translateY(-1px);
+    transform: translateY(-5px);
 }
 
 .project-card {
@@ -440,5 +457,11 @@ a.project-link > .project-card {
 
 .project-link:hover > .project-card {
     border-color: var(--accent);
-    transform: translateY(-1px);
+    transform: translateY(-5px);
+}
+
+.impactful {
+    color: var(--accent);
+    font-weight: 700;
+    letter-spacing: 0.04em;
 }

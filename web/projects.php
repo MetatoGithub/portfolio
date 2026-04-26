@@ -23,7 +23,7 @@
         </section>
 
         <section class="card project-grid">
-            <a class="project-link" href="https://cloud.metatobac.cc/index.php/s/a3fTQN4pHSpNgMC/download/GNS3.pdf">
+            <a class="project-link" href="art_gns3.php">
                 <article class="project-card">
                     <img src="assets/gns3logo.png" alt="gns3 logo" class="project-image">
                     <p class="eyebrow-proj">AP 1re année</p>
@@ -49,7 +49,7 @@
                 </div>
             </article>
             
-            <a class="project-link" href="https://github.com/MetatoGithub/nolark-burgess">
+            <a class="project-link" href="art_nolark.php">
                 <article class="project-card">
                     <img src="assets/nolarklogo.png" alt="Nolark logo" class="project-image">
                     <p class="eyebrow">AP 1re année</p>

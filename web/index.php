@@ -33,7 +33,9 @@
             </div>
             <aside class="photo-slot" aria-label="Headshot de Tim">
                 <div class="photo-box">
-                    <img src="assets/PLACEHOLDER.jpg" alt="Headshot de Tim" >
+                    <a href="assets/PLACEHOLDER.jpg">
+                        <img src="assets/PLACEHOLDER.jpg" alt="Headshot de Tim" >
+                    </a>
                 </div>
             </aside>
         </section>
