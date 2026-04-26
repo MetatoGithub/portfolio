@@ -19,19 +19,19 @@
     <main class="content-wrap">
         <section class="hero card">
             <div class="hero-copy">
-                <p class="eyebrow">AP 1re annee</p>
+                <p class="eyebrow">AP 1re année</p>
                 <h1>Nolark</h1>
                 <p>
-                    Durant ma 1ere annee de BTS SIO, j'ai pu travailler sur le projet Nolark, un site web de vente de casques de moto.
-                    J'ai corrige plusieurs bugs sur le site et travaille avec des bases de donnees MySQL pour la gestion des produits.
+                    Durant ma 1re année de BTS SIO, j'ai pu travailler sur le projet Nolark, un site web de vente de casques de moto.
+                    J'ai corrigé plusieurs bugs sur le site et travaillé avec des bases de données MySQL pour la gestion des produits.
                 </p>
                 <p class="impactful">
-                    Competences et etapes du projet:
+                    Compétences et étapes du projet:
                 </p>
                 <ul class="quick-points">
-                    <li>Reperage de bugs dans l'affichage et le fonctionnement</li>
+                    <li>Repérage de bugs dans l'affichage et le fonctionnement</li>
                     <li>Mise en place de scripts de calcul (alcoolemie, amendes)</li>
-                    <li>Gestion de la base de donnees MySQL</li>
+                    <li>Gestion de la base de données MySQL</li>
                 </ul>
             </div>
             <aside class="photo-slot" aria-label="Exemple de projet GNS3">
@@ -44,7 +44,7 @@
         </section>
 
         <section class="card">
-            <h2>Documents lies</h2>
+            <h2>Documents liés</h2>
             <div class="info-grid">
                 <a class="info-link" href="https://nolark.gil83.fr/">
                     <article class="info-cards">    

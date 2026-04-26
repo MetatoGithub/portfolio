@@ -19,20 +19,20 @@
     <main class="content-wrap">
         <section class="hero card">
             <div class="hero-copy">
-                <p class="eyebrow">AP 1re annee</p>
+                <p class="eyebrow">AP 1re année</p>
                 <h1>GNS3</h1>
                 <p>
-                    Dans le cadre de mon AP de 1re année, j'ai travaillé sur GNS3, un emulateur de réseau informatique. 
-                    Avec l'aide de mon collaborateur Yannis Bruneau, nous avons mit en place une machine virtuelle, puis plus tard un serveur dedie, sur lequel nous avons pu effectuer nos tests et mettre en place des topologies de réseau virtuelles.
+                    Dans le cadre de mon AP de 1re année, j'ai travaillé sur GNS3, un émulateur de réseau informatique.
+                    Avec l'aide de mon collaborateur Yannis Bruneau, nous avons mis en place une machine virtuelle, puis plus tard un serveur dédié, sur lequel nous avons pu effectuer nos tests et mettre en place des topologies de réseau virtuelles.
                 </p>
                 <p class="impactful">
-                    Etapes du projet:
+                    Étapes du projet:
                 </p>
                 <ul class="quick-points">
                     <li>Mise en place du serveur </li>
                     <li>Installation du client GNS3 sur plusieurs machines</li>
-                    <li>Importation des images de routeurs, commutateurs et hotes virtuels</li>
-                    <li>Creation de topologies de reseau virtuelles</li>
+                    <li>Importation des images de routeurs, commutateurs et hôtes virtuels</li>
+                    <li>Création de topologies de réseau virtuelles</li>
                 </ul>
             </div>
             <aside class="photo-slot" aria-label="Exemple de projet GNS3">
@@ -45,7 +45,7 @@
         </section>
 
         <section class="card">
-            <h2>Documents lies</h2>
+            <h2>Documents liés</h2>
             <div class="info-grid">
                 <a class="info-link" href="https://cloud.metatobac.cc/index.php/s/a3fTQN4pHSpNgMC/download/GNS3.pdf">
                     <article class="info-cards">    
