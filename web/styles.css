@@ -440,6 +440,7 @@ a.info-link > .info-cards:hover {
 }
 
 .project-card,
+.stage,
 .article-card {
     display: block;
     width: 100%;
@@ -450,6 +451,7 @@ a.info-link > .info-cards:hover {
 }
 
 .project-card img,
+.stage img,
 .article-card img {
     width: auto;
     height: 124px;
@@ -458,12 +460,14 @@ a.info-link > .info-cards:hover {
 }
 
 a.project-link > .project-card,
+a.stage-link > .stage,
 a.article-link > .article-card {
     height: 100%;
     text-decoration: none;
 }
 
 .project-link:hover > .project-card,
+.stage-link:hover > .stage,
 .article-link:hover > .article-card {
     border-color: var(--accent);
     transform: translateY(-5px);

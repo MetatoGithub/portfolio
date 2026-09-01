@@ -25,11 +25,14 @@
 
         <section class="card">
             <div class="info-grid">
+                <a class="stage-link" href="stage_1.php">
                 <article class="stage">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarine-oceans.com%2Fwp-content%2Fuploads%2F2022%2F12%2FNaval-Group-3-scaled.jpeg&f=1&nofb=1&ipt=62095f6d86d260d81be76f08cae926944ae20aceada3b92469d31dedef393791" alt="Naval Group Ollioules" class="stage-image">
                     <p class="eyebrow">1re année</p>
                     <h3>Naval Group Ollioules</h3>
-                    <p>Le stage de 1re année sera effectué en mai 2026</p>
+                    <p>Le stage de 1re s'est deroule en Mai et Juin 2026</p>
                 </article>
+                </a>
                 <article class="stage-wip">
                     <p class="eyebrow-wip">2e année</p>
                     <h3>À suivre...</h3>
