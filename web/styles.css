@@ -268,6 +268,7 @@ a.info-link > .info-cards:hover {
 }
 
 .project-grid,
+.article-grid,
 .template-grid {
     display: grid;
     gap: 0.9rem;
@@ -276,6 +277,7 @@ a.info-link > .info-cards:hover {
 
 .stage,
 .project-card,
+.article-card,
 .template-box {
     background: rgba(13, 10, 18, 0.72);
     border: 1px solid var(--border);
@@ -285,6 +287,7 @@ a.info-link > .info-cards:hover {
 
 .info-grid p,
 .project-card p,
+.article-card p,
 .template-box p {
     margin-bottom: 0;
 }
@@ -297,7 +300,8 @@ a.info-link > .info-cards:hover {
 }
 
 
-.project-description {
+.project-description,
+.article-description {
     margin-bottom: 0.8rem;
     color: var(--text-soft);
 }
@@ -349,7 +353,8 @@ a.info-link > .info-cards:hover {
     }
 }
 
-.eyebrow-proj {
+.eyebrow-proj,
+.eyebrow-art {
     margin-top: 0;
     margin-bottom: 0.35rem;
     color: #a855f7;
@@ -434,7 +439,8 @@ a.info-link > .info-cards:hover {
     transform: translateY(-5px);
 }
 
-.project-card {
+.project-card,
+.article-card {
     display: block;
     width: 100%;
     height: 100%;
@@ -443,19 +449,22 @@ a.info-link > .info-cards:hover {
     margin-bottom: 50px;
 }
 
-.project-card img {
+.project-card img,
+.article-card img {
     width: auto;
     height: 124px;
     object-fit: contain;
     margin-bottom: 0.75rem;
 }
 
-a.project-link > .project-card {
+a.project-link > .project-card,
+a.article-link > .article-card {
     height: 100%;
     text-decoration: none;
 }
 
-.project-link:hover > .project-card {
+.project-link:hover > .project-card,
+.article-link:hover > .article-card {
     border-color: var(--accent);
     transform: translateY(-5px);
 }
