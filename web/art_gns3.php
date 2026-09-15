@@ -59,7 +59,7 @@
                         <h1> 🗎 </h1>
                     </article>
                 </a>
-                <a class="info-link" href="https://yannisbruneau.odoo.com/actions-professionnelles">
+                <a class="info-link" href="https://yannisbruneau.odoo.com/gns3">
                     <article class="info-cards">
                         <h3>Article de Yannis Bruneau</h3>
                         <h1> 🌏︎ </h1>
