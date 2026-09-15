@@ -34,7 +34,7 @@
             </div>
             <aside class="photo-slot" aria-label="Exemple de projet GNS3">
                 <div class="photo-box">
-                    <a href="assets/gns3proj.png">
+                    <a href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarine-oceans.com%2Fwp-content%2Fuploads%2F2022%2F12%2FNaval-Group-3-scaled.jpeg&f=1&nofb=1&ipt=62095f6d86d260d81be76f08cae926944ae20aceada3b92469d31dedef393791">
                         <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarine-oceans.com%2Fwp-content%2Fuploads%2F2022%2F12%2FNaval-Group-3-scaled.jpeg&f=1&nofb=1&ipt=62095f6d86d260d81be76f08cae926944ae20aceada3b92469d31dedef393791" alt="Naval Group" >
                     </a>
                 </div>
