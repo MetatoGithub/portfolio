@@ -7,7 +7,7 @@ $navItems = array(
     "Projets/AP" => $dirPages . 'projects.php',
     "Stage" => $dirPages . 'stage.php',
     "Veille informatique" => $dirPages . 'veille.php',
-    "Patrimoine" => $dirPages . 'pagewip.php'
+    "Patrimoine" => $dirPages . 'patrimoine.php'
 );
 ?>
 

@@ -5,32 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#0a0a12">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Patrimoine informatique - Tim Burgess--Poggioli</title>
+    <title>Stage 1 - Tim Burgess--Poggioli</title>
     <link rel="icon" type="assets/favicon.png" href="assets/favicon.png">
     <link rel="stylesheet" href="styles.css?newcache01" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="page page-home">
     <?php
-    $brand = "tim@portfolio:~/stg1 $";
+    $brand = "tim@portfolio:~/ptr1 $";
     include __DIR__ . "/navbar.php";
     ?>
 
     <main class="content-wrap">
         <section class="hero card">
             <div class="hero-copy">
-                <p class="eyebrow">Stage de 1re année</p>
+                <p class="eyebrow">Questionnaire de patrimoine informatique</p>
                 <h1>Naval Group Ollioules</h1>
-                <p>J’ai effectué mon stage de 1ere année au sein de Naval Group Ollioules, une entreprise Française qui conçoit, réalise, intègre, maintient en service, démantèle et déconstruit des sous-marins et des navires de surface. L’entreprise comptait environ 17000 employés en 2025. </p>
-                <p>J’ai collaboré avec l'équipe chargée du développement d’une distribution Linux minimaliste et sécurisée, Distribution Linux Cybersecurisée (DLC). Cette distribution est vouée à être déployée sur les bateaux construits par Naval Group.</p>
-                <p class="impactful">
-                    Activites principales:
-                </p>
-                <ul class="quick-points">
-                    <li>Déploiement de machines virtuelles</li>
-                    <li>Lancement de tests de qualifications sur un systeme Linux</li>
-                    <li>Etablissement des listes de recommandations</li>
-                </ul>
+                <p>Questionnaire de patrimoine informatique pour le stage de 1re année, complete a l'aide de mon tuteur Laurent Santana.</p>
             </div>
             <aside class="photo-slot" aria-label="Naval Group Ollioules">
                 <div class="photo-box">
@@ -42,11 +33,11 @@
         </section>
 
         <section class="card">
-            <h2>Documents liés</h2>
+            <h2>Documents</h2>
             <div class="info-grid">
-                <a class="info-link" href="https://docs.google.com/document/d/1l2DWfrT7m3W6gqRr78agd1WXG77bV9Yj/edit?usp=sharing&ouid=107842940219341580675&rtpof=true&sd=true">
+                <a class="info-link" href="https://docs.google.com/document/d/1kEb_kQ4PrEQL55X0O9UKV-hbODye2i3T/edit?usp=sharing&ouid=107842940219341580675&rtpof=true&sd=true">
                     <article class="info-cards">    
-                        <h3>Rapport de stage</h3>
+                        <h3>Questionnaire de patrimoine informatique</h3>
                         <h1> 🗎 </h1>
                     </article>
                 </a>
