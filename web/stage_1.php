@@ -40,7 +40,25 @@
                 </div>
             </aside>
         </section>
-
+        
+        <section class="card">
+            <p class="impactful">
+                Mission principale
+            </p>
+            <p>
+                Durant mon stage, j'ai participé à la qualification d’une nouvelle version de DLC, puis a l'implémentation d'une solution de démarrage sur réseau.
+            </p>
+            <p class="impactful">
+                Compétences mises en oeuvre
+            </p>
+            <ul class="quick-points">
+                <li>B1.5 Déployer un service</li>
+                <li>B1.5 Réaliser les tests d’intégration et d’acceptation d’un service</li>
+                <li>Bloc 1.4 - Travailler en mode projet</li>
+                <li>B1.6, Mettre en place son environnement d’apprentissage personnel</li>
+            </ul>
+        </section>
+        
         <section class="card">
             <h2>Documents liés</h2>
             <div class="info-grid">
