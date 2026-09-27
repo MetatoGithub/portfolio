@@ -34,6 +34,11 @@
                     <li>Importation des images de routeurs, commutateurs et hôtes virtuels</li>
                     <li>Création de topologies de réseau virtuelles</li>
                 </ul>
+                <p class="impactful">
+                    Compétences acquises:
+                <ul class="quick-points">
+                    <li>Bloc 1.5: Mettre a disposition des utilisateurs un service informatique</li>
+                    <li>Deployer un service</li>
             </div>
             <aside class="photo-slot" aria-label="Exemple de projet GNS3">
                 <div class="photo-box">
